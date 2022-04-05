@@ -30,12 +30,12 @@ const Home = () => {
             <h2>Review Details</h2>
             <div >
                 
-                <div className='row d-flex'>
+                <div className='row d-flex gap-5'>
                     {reviews.slice(0,3).map(review => <ReviewCard key={review.id} review={review}></ReviewCard>)}
                     
                 </div>
             </div>
-            <div className='text-center btn btn-primary'>
+            <div className='text-center Custom-Button py-5'>
                <Link to='/review'>See All Reviews</Link> 
             </div>
      </div>

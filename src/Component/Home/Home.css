@@ -6,3 +6,16 @@ h1{
 h3{
     font-weight: 700;
 }
+.Custom-Button a {
+    width: 100px;
+    background-color: rgb(74, 74, 252);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.Custom-Button a:hover {
+    color: aqua;
+}

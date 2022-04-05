@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const ReviewCard2 = (props) => {
     const { name, rating, picture, review } = props.review;
     return (
-        <div className='col-4 py-2'>
+        <div className='col-3 py-2 '>
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={`${picture}`} />
             <Card.Body>

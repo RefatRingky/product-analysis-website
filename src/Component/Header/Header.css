@@ -1,17 +1,19 @@
 nav {
-    background-color: blueviolet;
-    text-align: right;
+    background-color: coral;
+    text-align: center;
     height: 70px;
 }
 
 nav a {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     padding: 0 7px;
     text-decoration: none;
     font-weight: 500;
     justify-content: center;
     align-items: center;
+    padding-top: 3px;
+    
 
 }
 

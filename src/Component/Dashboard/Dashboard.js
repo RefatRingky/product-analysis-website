@@ -42,8 +42,10 @@ const Dashboard = () => {
     ]
     return (
       <div className='container'>
+
           <div className='row pt-5'>
           <div className='col-6'>
+          <h2>Month wise sell chart</h2>
            <LineChart width={500} height={300} data={data}>
            <Line type="monotone" dataKey="sell" stroke="#8884d8" ></Line>
            <CartesianGrid stroke="#ccc" strokeDasharray="5 5"></CartesianGrid>
@@ -55,6 +57,7 @@ const Dashboard = () => {
 
        
           <div className='col-6'>
+          <h2>Invesment vs Revenue</h2>
           <AreaChart  width={500} height={300} data={data}>
           <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
           <XAxis dataKey="month" ></XAxis>

@@ -1,7 +1,7 @@
 # Welcome To "Rinrav's Laptop House"
 #My Project Contain
  *Project Description*
-- In this project u can see that,I add dashboard from rechart one is line chart and another is area chart.
+- In this project you can see that,I add dashboard from rechart one is line chart and another is area chart.
 - Review item is also include here.
 - In home page you can see only three review from the total reviews.
 - And one Blog is available here where two question answer is available.

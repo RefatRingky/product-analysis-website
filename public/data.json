@@ -1,0 +1,51 @@
+[
+    {
+      "id": "624b4c8004dc408c2ff14181",
+      "picture": "img/user (1).jpeg",
+      "name": "Jana Wells",
+      "review": "Rinrav's Laptop house is better than the other",
+      "rating": 5
+    },
+    {
+      "id": "624b4c80a8756c5bed754baa",
+      "picture": "img/user (2).jpeg",
+      "name": "Alissa Burton",
+      "review": "Rinrav's Laptop house is better than the other",
+      "rating": 4.5
+    },
+    {
+      "id": "624b4c809879bde3710a9dd7",
+      "picture": "img/user (3).jpeg",
+      "name": "Myrna Blackburn",
+      "review": "Rinrav's Laptop house is better than the other",
+      "rating": 5
+    },
+    {
+      "id": "624b4c800f63a61eec5e7e6f",
+      "picture": "img/user (4).jpeg",
+      "name": "Carissa Norris",
+      "review": "Rinrav's Laptop house is better than the other",
+      "rating": 4.5
+    },
+    {
+      "id": "624b4c80a8390ea0c5591814",
+      "picture": "img/user (2).jpeg",
+      "name": "Oconnor Savage",
+      "review": "Rinrav's Laptop house is better than the other",
+      "rating": 5
+    },
+    {
+      "id": "624b4c8057668977d65e9fb6",
+      "picture": "img/user (1).jpeg",
+      "name": "Florence Bush",
+      "review": "Rinrav's Laptop house is better than the other",
+      "rating": 5
+    },
+    {
+      "id": "624b4c80b4e9c651666460fb",
+      "picture": "img/user (3).jpeg",
+      "name": "Lorena Pearson",
+      "review": "Rinrav's Laptop house is better than the other",
+      "rating": 5
+    }
+  ]

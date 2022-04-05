@@ -1,0 +1,18 @@
+nav {
+    background-color: blueviolet;
+    text-align: right;
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    padding: 0 7px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+nav a:hover {
+    color: aqua;
+}

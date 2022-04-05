@@ -17,14 +17,16 @@ const Home = () => {
                 <div className='col-6 pt-5'>
                     <h1>Rinrav's Laptop House</h1>
                     <h3>The Latest Collection Is Available</h3>
-                    <p>You can grap the latest product from now</p>
-                    <Button className='btn'>Contact Us</Button>
+                    <p>You can grap the latest product from now.Ravrav's Laptop house is trustable and you can get the original product from us.All type of branded Laptop is available from now.And we also our own servicing house.</p>
+                    <div className='text-center Custom-Button py-5'>
+                    <Link to='/'>See All Product</Link> 
+                    </div>
                     
                    
                    
                 </div>
                 <div className='col-6 d-flex justify-content-center align-items-center'>
-                   <img width="600" height="400" src={'img/laptop.jpg'}></img> 
+                   <img width="500" height="400" src={'img/laptop.jpg'}></img> 
                 </div>
             </div>
             <h2>Review Details</h2>

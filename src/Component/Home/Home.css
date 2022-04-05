@@ -3,12 +3,21 @@ h1{
     color: coral;
     font-weight: 700;
 }
+h2{
+    color: coral;
+    font-weight: 800; 
+}
 h3{
     font-weight: 700;
 }
+img{
+    border: 2px solid coral;
+    border-radius: 8px;
+    transition: calc(5,8);
+}
 .Custom-Button a {
     width: 100px;
-    background-color: rgb(74, 74, 252);
+    background-color: coral;
     padding: 15px;
     color: white;
     border-radius: 10px;

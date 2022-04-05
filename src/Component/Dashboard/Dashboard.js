@@ -41,7 +41,9 @@ const Dashboard = () => {
         }
     ]
     return (
-      <div className='chart'>
+      <div className='container'>
+          <div className='row pt-5'>
+          <div className='col-6'>
            <LineChart width={500} height={300} data={data}>
            <Line type="monotone" dataKey="sell" stroke="#8884d8" ></Line>
            <CartesianGrid stroke="#ccc" strokeDasharray="5 5"></CartesianGrid>
@@ -49,8 +51,10 @@ const Dashboard = () => {
            <YAxis></YAxis>
            <Tooltip></Tooltip>
        </LineChart>
+       </div>
 
-       <div className='chart-2'>
+       
+          <div className='col-6'>
           <AreaChart  width={500} height={300} data={data}>
           <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
           <XAxis dataKey="month" ></XAxis>
@@ -59,7 +63,9 @@ const Dashboard = () => {
           <Area type="monotone" dataKey="investment" stackId="1" stroke="#82ca9d" fill="#82ca9d"></Area>
           <Area type="monotone" dataKey="revenue" stackId="1" stroke="#ffc658" fill="#ffc658"></Area>
           </AreaChart>
-       </div>
+          </div>
+          </div>
+       
       </div>
       
     );

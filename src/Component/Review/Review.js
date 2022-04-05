@@ -5,10 +5,12 @@ import ReviewCard from './ReviewCard';
 const Review = () => {
     const [reviews,setReview] = useReview();
     return (
-        <div>
+        <div className='container'>
+           <div className='row d-flex'>
            {
               reviews.map(review=> <ReviewCard key={review.id} review={review}></ReviewCard>) 
            }
+        </div>
         </div>
         
 

@@ -1,0 +1,4 @@
+.reviews-card-one{
+  display: grid;
+  grid-template-columns: (3,1fr);
+}

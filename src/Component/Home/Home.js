@@ -24,13 +24,13 @@ const Home = () => {
                    
                 </div>
                 <div className='col-6 d-flex justify-content-center align-items-center'>
-                   <img src={'img/laptop.jpg'}></img> 
+                   <img width="600" height="400" src={'img/laptop.jpg'}></img> 
                 </div>
             </div>
             <h2>Review Details</h2>
             <div >
                 
-                <div className='review-detail'>
+                <div className='row d-flex'>
                     {reviews.slice(0,3).map(review => <ReviewCard key={review.id} review={review}></ReviewCard>)}
                     
                 </div>
